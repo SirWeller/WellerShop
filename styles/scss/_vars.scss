@@ -1,0 +1,36 @@
+// vars
+
+$mainColor: rgb(220, 220, 250) ;
+$secondaryColor: blue	;
+$grey: rgb(200, 200, 200);
+$black: black			;
+$white: white			;
+$orange:orange			;
+
+//== backgrouds ==
+
+$back-lightblue-transparent: rgba(220, 220, 250, 0.8);
+$back-dark-transparent: rgba(255, 255, 255, 0.1);
+$back-dark-unPure: rgba(0, 0, 0, 0.8);
+$shadow: rgb(50,50,50);
+
+//== Colores tenues ==
+
+$blue-liviano: rgba(0,0,250, 0.3);
+$celeste-liviano: rgba(100,100,250, 0.3);
+$red-liviano: rgba(250,0,0,0.3);
+$naranja-liviano: rgba(250,128,0,0.3);
+
+//== borders ==
+
+$border-sm: 3px;
+$border-md: 5px;
+$border-lg: 10px;
+$border-xl: 20px;
+
+
+//== border - rem ==
+
+$border-rem-sm: 0.25rem;
+$border-rem-md: 0.50rem;
+$border-rem-lg: 0.75rem;

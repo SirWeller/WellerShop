@@ -1,0 +1,31 @@
+// _aside
+.category_item{
+	width: 100%;
+	background-color: $white;
+	text-decoration: none;
+	color: $black;
+	&:hover{
+		transition: 0.2s;
+		background-color: $mainColor;
+		border-radius: $border-sm;	
+	}
+}
+
+.ct_item-activo{
+	transition: 0.3s;
+	color: $white;
+	background-color: $secondaryColor;
+	&:hover{
+		background-color: $back-dark-unPure;
+	}
+}
+
+
+/* Mobile sm */
+
+@media (max-width: 992px){
+	.aside{
+		max-height: 150px;
+		overflow-y: scroll;
+	}
+}

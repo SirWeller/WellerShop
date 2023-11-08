@@ -1,0 +1,96 @@
+// _commons
+
+*{
+	font-family: "Josefin sans", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../../images/background1.jpg");
+	background-attachment: fixed;	
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+h3{
+	color: $black;
+}
+
+// error de carga?
+.max-w{
+	max-width: 400px;
+} 
+
+.bg-custom-orange{
+	background-color: $orange;
+}
+
+.bg-custom-black{
+	background-color: $back-dark-unPure;
+}
+
+.bg-lightblue{
+	background-color: $mainColor;
+}
+
+.bg-grey{
+	background-color: $grey;
+}
+
+.bg-secondaryColor{
+	background-color: $secondaryColor;
+}
+
+.item-hover{
+	@extend .display-custom;
+	border-radius: 6px;
+	overflow:hidden;
+	transition:  0.4s;
+	&:hover{
+		box-shadow: 0 0 15px 1px $shadow;
+	}
+	a{
+		img{
+			&:hover{
+				transition:  0.4s;
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
+.navbar-dark .nav-item .nav-link {
+  color: $white;
+  &:hover{
+  	background-color: $back-dark-transparent;
+	  transition: all 0.3s ease;
+	  border-radius: $border-rem-sm;
+	  color: $white;
+  }
+}
+
+.img-carousel{
+	height: 600px;
+	object-fit: cover;
+	max-height: 600px;
+}
+
+.iframe-map{
+	height: 400px;
+	width: 90%;
+}
+
+.btn2 {
+	background-color: $mainColor;
+	width: 500px;
+	border-radius: $border-xl;
+}
+

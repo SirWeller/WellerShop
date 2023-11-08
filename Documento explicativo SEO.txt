@@ -1,0 +1,7 @@
+En el archivo index.html y en las pages/# sumé el SEO con las siguientes características:
+
+1. Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "WellerShop brinda un servicio de atención especializado, soluciones eficaces, rápidas entregas, y stock permanente."
+
+2. Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "bengalas, tarjetas, comestibles, cotillón, pelucas, fiestas, descartables, globos, mascaras, adornos led, velas, artículos de cotillón"
+
+3. Encabezado: para el encabezado no he utilizado h1 de mi index.

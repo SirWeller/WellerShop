@@ -1,0 +1,46 @@
+//Nosotros
+
+.dark-body{
+	background-image: url("../../images/fiestas/backgroundNosotros.jpg");
+	background-attachment: unset;
+	background-size: 100%;
+}
+
+main{
+	img{
+		width:100%;
+	}
+}
+
+.power-div{
+	@include boxBg_Text_Rounded_($back-dark-transparent,$white);
+}
+
+.bg-nosotros1{
+	background-color: map-get($map:$colores-livianos, $key:'1');
+}
+
+.bg-nosotros2{
+	background-color: map-get($map:$colores-livianos, $key:'4');
+}
+
+
+.item-hover-extension{
+	@extend .item-hover;
+	img{
+		overflow: hidden;
+		&:hover{
+			transition: all 0.5s;
+			transform: scale(1.1);
+		}
+	}
+}
+
+.max-box{
+	max-width: 500px;
+	text-align: center;
+	p{
+		background-color: $back-dark-transparent;
+		border-radius: 6px;
+	}
+}

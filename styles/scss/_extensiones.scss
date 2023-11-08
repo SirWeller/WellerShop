@@ -1,0 +1,27 @@
+//extensiones
+.display-custom{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+//== Map ==
+
+$colores-livianos:(
+	'1': $blue-liviano,
+	'2': $celeste-liviano,
+	'3': $red-liviano,
+	'4': $naranja-liviano);
+
+//== Mixin ==
+
+@mixin boxBg_Text_Rounded_($color,$colorT,$borde:none){
+	background-color: $color;
+	color: $colorT;
+	border: $borde;
+}
+
+@mixin w_h($w,$h){
+	width:  $w;
+	height: $h;
+}

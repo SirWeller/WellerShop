@@ -1,0 +1,24 @@
+{
+  "name": "weller-sass",
+  "version": "1.0.0",
+  "description": "WellerShop, mi primer página.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"sass --watch styles/scss/style.scss styles/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirWeller/WellerShop-CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirWeller/WellerShop-CoderHouse/issues"
+  },
+  "homepage": "https://github.com/SirWeller/WellerShop-CoderHouse#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "sass": "^1.53.0"
+  }
+}

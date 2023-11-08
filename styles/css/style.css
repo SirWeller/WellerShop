@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap");
+.display-custom, .item-hover, .item-hover-extension {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: "Josefin sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../../images/background1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+h3 {
+  color: black;
+}
+
+.max-w {
+  max-width: 400px;
+}
+
+.bg-custom-orange {
+  background-color: orange;
+}
+
+.bg-custom-black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-lightblue {
+  background-color: rgb(220, 220, 250);
+}
+
+.bg-grey {
+  background-color: rgb(200, 200, 200);
+}
+
+.bg-secondaryColor {
+  background-color: blue;
+}
+
+.item-hover, .item-hover-extension {
+  border-radius: 6px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.item-hover:hover, .item-hover-extension:hover {
+  box-shadow: 0 0 15px 1px rgb(50, 50, 50);
+}
+.item-hover a img:hover, .item-hover-extension a img:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+.navbar-dark .nav-item .nav-link {
+  color: white;
+}
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.img-carousel {
+  height: 600px;
+  object-fit: cover;
+  max-height: 600px;
+}
+
+.iframe-map {
+  height: 400px;
+  width: 90%;
+}
+
+.btn2 {
+  background-color: rgb(220, 220, 250);
+  width: 500px;
+  border-radius: 20px;
+}
+
+nav img {
+  width: 55px;
+}
+
+.back-top {
+  background-color: rgba(220, 220, 250, 0.8);
+  padding: 5px;
+  margin: 5px 20%;
+  border-radius: 10px;
+}
+
+.btn-custom-nav {
+  margin: 3px;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+.btn-custom-nav:hover {
+  background-color: rgb(220, 220, 250);
+  border-radius: 3px;
+}
+.btn-custom-nav a:hover {
+  color: white !important;
+}
+
+.active {
+  padding-bottom: 0;
+  font-weight: 700;
+  border-bottom-style: solid;
+}
+
+.category_item {
+  width: 100%;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+.category_item:hover {
+  transition: 0.2s;
+  background-color: rgb(220, 220, 250);
+  border-radius: 3px;
+}
+
+.ct_item-activo {
+  transition: 0.3s;
+  color: white;
+  background-color: blue;
+}
+.ct_item-activo:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Mobile sm */
+@media (max-width: 992px) {
+  .aside {
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+}
+footer img {
+  width: 40px;
+}
+
+.dark-body {
+  background-image: url("../../images/fiestas/backgroundNosotros.jpg");
+  background-attachment: unset;
+  background-size: 100%;
+}
+
+main img {
+  width: 100%;
+}
+
+.power-div {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+}
+
+.bg-nosotros1 {
+  background-color: rgba(0, 0, 250, 0.3);
+}
+
+.bg-nosotros2 {
+  background-color: rgba(250, 128, 0, 0.3);
+}
+
+.item-hover-extension img {
+  overflow: hidden;
+}
+.item-hover-extension img:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.max-box {
+  max-width: 500px;
+  text-align: center;
+}
+.max-box p {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
